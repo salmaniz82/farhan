@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri;
+    height: 100%;
+}
+
+.wrapper {
+    height: 100%;
+}
+
+.clear-float{
+    clear: both;
+    height: 0px;
+}
+
+.box {
+    width: 50%;
+    height: 100%;
+    float: left;
+    border: 1px solid red;
+    padding: 10px;
+    color: white;
+}
+
+.box:nth-child(1) {
+    background-color: greenyellow;
+}
+
+.box:nth-child(2) {
+    background-color: cornflowerblue;
+    padding: 0;
+}
+
+.vbox {
+    height: 50%;
+    width: 100%;
+}
+
+.vbox:nth-child(1){
+    background-color: darkslateblue;
+}
+
+.vbox:nth-child(2){
+    background-color: #828b19;
+}
+
+
